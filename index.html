@@ -63,20 +63,21 @@
     <main>
         <div class="container py-5">
             <div class="row">
-                <div class="col-9">
+                <div class="col-8">
                     <div class="card">
-                        <div class="card-header d-flex justify-content-between align-items-center">
-                            <h2 class="card-title">Special title treatment</h2>
-                            <a href="#" class="btn btn-sm btn-primary">Aggiungi Libri</a>
-                        </div>
                         <div class="card-body">
+                            <div
+                                class="card-header d-flex justify-content-between align-items-center bg-white text-dark">
+                                <h2 class="card-title fw-midium">Catalogo Libri</h2>
+                                <a href="#" class="btn btn-sm btn-primary">Aggiungi Libri</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <div class="card mb-4">
                         <div class="card-header">
-                            <h2 class="card-title">Todo</h2>
+                            <h2 class="card-title fw-midium">Todo</h2>
                         </div>
                         <div class="card-body">
                             <ul class="list-group">
@@ -106,13 +107,43 @@
                     </div>
                     <div class="card">
                         <div class="card-header">
-                            <h2 class="card-title">F.A.Q.</h2>
+                            <h2 class="card-title fw-midium">F.A.Q.</h2>
                         </div>
                         <div class="card-body">
+                            <div class="form-floating">
+                                <select class="form-select border-0 shadow-none border-bottom rounded-bottom-0"
+                                    id="floatingSelect" aria-label="Floating label select example">
+                                    <option selected>Come aggiungere un libro?</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="form-floating">
+                                <select class="form-select border-0 shadow-none border-bottom rounded-bottom-0"
+                                    id="floatingSelect" aria-label="Floating label select example">
+                                    <option selected>
+                                        Come posso accedere all'anagrafica utenti?
+                                    </option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="form-floating">
+                                <select class="form-select border-0 shadow-none" id="floatingSelect"
+                                    aria-label="Floating label select example">
+                                    <option selected>Posso usare questa dashboard da mobile?</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </main>
 
