@@ -67,10 +67,35 @@
                     <div class="card">
                         <div class="card-body">
                             <div
-                                class="card-header d-flex justify-content-between align-items-center bg-white text-dark">
+                                class="card-header d-flex justify-content-between align-items-center bg-white text-dark border-0 p-0">
                                 <h2 class="card-title fw-midium">Catalogo Libri</h2>
                                 <a href="#" class="btn btn-sm btn-primary">Aggiungi Libri</a>
                             </div>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Titolo</th>
+                                        <th>Data prestito</th>
+                                        <th>Stato</th>
+                                        <th>Azioni</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>I pilastri della terra</td>
+                                        <td>-</td>
+                                        <td><span class="badge text-bg-success">Disponibile</span></td>
+                                        <td>
+                                            <button type="button" class="btn btn-outline-secondary">
+                                                <i class="bi bi-pencil-fill"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-outline-secondary">
+                                                <i class="bi bi-trash3-fill"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
