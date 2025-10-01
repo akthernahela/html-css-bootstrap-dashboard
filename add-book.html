@@ -16,7 +16,7 @@
 
 </head>
 
-<body class="box-border border">
+<body class="box-border border m-0 p-0">
 
     <!--Page Header composed with Bootstrap navbar-->
     <header>
@@ -61,7 +61,7 @@
 
     <!--Page main-->
     <main>
-        <div class="container py-5">
+        <div class="container pt-5">
             <h1>Nuovo Libro</h1>
             <div class="row">
                 <div class="col">
@@ -81,9 +81,9 @@
                     aria-describedby="Tile">
                 <div id="Title" class="form-text">Titolo versione Italiana</div>
             </div>
-            <div class="row vert">
-                <div class="col-lg-4">
-                    <label for="Gender" class="form-label">Genere</label>
+            <div class="row border-bottom pb-5">
+                <div class="col-lg-4 pt-0">
+                    <label for="Genre" class="form-label">Genere</label>
                     <select id="inputgender" class="form-select">
                         <option selected>Segli il genere</option>
                         <option>Horror</option>
@@ -94,16 +94,17 @@
                     </select>
                 </div>
                 <div class="col-lg-4">
-                    <label for="First name" class="First name">Nome Autore</label>
-                    <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore"
-                        aria-label="First name">
+                    <label for="Publication" class="Publication pb-2">Anno di Pubblicazione</label>
+                    <input type="text" class="form-control" placeholder="Inserisci l'anno"
+                        aria-label="Publication">
                 </div>
                 <div class="col-lg-4">
-                    <label for="Last name" class="Last name">Cognome Autore</label>
-                    <input type="text" class="form-control" placeholder="Inserisci il cognome dell'autore"
-                        aria-label="Last name">
+                    <label for="Code" class="Code pb-2">ISBN#</label>
+                    <input type="text" class="form-control" placeholder="Inserisci il codice ISBN#"
+                        aria-label="Code">
                 </div>
             </div>
+            
         </div>
     </main>
 
